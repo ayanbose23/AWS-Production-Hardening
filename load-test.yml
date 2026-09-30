@@ -1,5 +1,5 @@
 config:
-  target: "https://YOUR-API-GATEWAY-URL"
+  target: "https://YOUR-API-ID.execute-api.ap-south-1.amazonaws.com/dev"
 
   phases:
     - duration: 60
@@ -11,7 +11,7 @@ config:
       name: "Small Load Test"
 
 scenarios:
-  - name: "Employee Onboarding API"
+  - name: "Resume Screener - Get Candidates"
     flow:
       - get:
-          url: "/YOUR-API-PATH"
+          url: "/candidates"

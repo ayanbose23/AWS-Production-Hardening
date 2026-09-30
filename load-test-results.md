@@ -1,18 +1,34 @@
-# Project 3 – Employee Onboarding Load Test Results
+# Project 4 – Resume Screener Load Test Results
 
 ## 1. Test Information
 
-Load testing tool:
+Project:
 
-Artillery
+AI-Powered Resume Screener & Talent Acquisition Pipeline
 
 AWS Region:
 
 ap-south-1
 
+Load Testing Tool:
+
+Artillery
+
 API Endpoint:
 
-## 2. Test Results
+## 2. Test Configuration
+
+Test endpoint:
+
+HTTP method:
+
+Authentication:
+
+Test duration:
+
+Arrival rate:
+
+## 3. Performance Results
 
 | Test | RPS | Error Rate | P50 | P95 | P99 |
 |---|---:|---:|---:|---:|---:|
@@ -21,7 +37,18 @@ API Endpoint:
 | Medium Load Test | | | | | |
 | High Load Test | | | | | |
 
-## 3. Lambda Results
+## 4. HTTP Results
+
+| HTTP Status | Count |
+|---|---:|
+| 200 | |
+| 400 | |
+| 401 | |
+| 403 | |
+| 404 | |
+| 500 | |
+
+## 5. Lambda Results
 
 | Metric | Result |
 |---|---:|
@@ -30,8 +57,13 @@ API Endpoint:
 | Throttles | |
 | Average Duration | |
 | Maximum Duration | |
+| Concurrent Executions | |
 
-## 4. DynamoDB Results
+## 6. DynamoDB Results
+
+Table:
+
+Candidates
 
 | Metric | Result |
 |---|---:|
@@ -41,23 +73,38 @@ API Endpoint:
 | Write Throttles | |
 | System Errors | |
 
-## 5. API Gateway Results
+## 7. API Gateway Results
 
 | Metric | Result |
 |---|---:|
-| Requests | |
+| Total Requests | |
 | 4XX Errors | |
 | 5XX Errors | |
 | Latency | |
 
-## 6. Observations
+## 8. Observations
 
 To be completed after the load test.
 
-## 7. Problems Identified
+## 9. Issues Identified
 
-To be completed after monitoring CloudWatch.
+To be completed after CloudWatch monitoring.
 
-## 8. Conclusion
+## 10. 10× Load Recommendation
 
-To be completed after the load test and CloudWatch analysis.
+Current tested load:
+
+Target 10× load:
+
+Lambda recommendation:
+
+DynamoDB recommendation:
+
+API Gateway recommendation:
+
+Monitoring recommendation:
+
+## 11. Conclusion
+
+The final conclusion will be written after completing
+Artillery testing and CloudWatch analysis.
