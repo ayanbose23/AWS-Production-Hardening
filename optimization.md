@@ -1,14 +1,15 @@
-# Project 4 – Resume Screener Cost Optimization
+# Project 3 – Cost Optimization
 
 ## 1. Current Architecture
 
-The Resume Screener uses:
+The Employee Onboarding & Identity Service uses:
 
 - API Gateway
-- Cognito
 - Lambda
+- Cognito
 - DynamoDB
 - S3
+- SNS
 - SES
 - CloudWatch
 
@@ -37,10 +38,9 @@ Expected monthly cost:
 | Metric | Before | After |
 |---|---:|---:|
 | Monthly Cost | | |
-| API Requests | | |
+| Storage | | |
 | Lambda Duration | | |
-| DynamoDB Requests | | |
-| S3 Storage | | |
+| API Requests | | |
 
 ## 6. Performance Impact
 
@@ -56,33 +56,11 @@ Estimated savings:
 
 Percentage improvement:
 
-## 8. Load Test Impact
-
-Before optimization:
-
-RPS:
-
-P50:
-
-P95:
-
-P99:
-
-After optimization:
-
-RPS:
-
-P50:
-
-P95:
-
-P99:
-
-## 9. Risks
+## 8. Risks
 
 Possible risks:
 
-## 10. Conclusion
+## 9. Conclusion
 
 The optimization will be validated using AWS Cost Explorer,
-CloudWatch metrics, and Artillery load testing.
+CloudWatch metrics, and load-testing results.
