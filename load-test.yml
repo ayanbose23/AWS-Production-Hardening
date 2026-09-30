@@ -1,17 +1,12 @@
 config:
-  target: "https://YOUR-API-ID.execute-api.ap-south-1.amazonaws.com/dev"
-
+  target: "https://YOUR-API-URL"
   phases:
     - duration: 60
       arrivalRate: 1
-      name: "Smoke Test"
-
-    - duration: 60
-      arrivalRate: 5
-      name: "Small Load Test"
+      name: "Smoke test"
 
 scenarios:
-  - name: "Resume Screener - Get Candidates"
+  - name: "API health test"
     flow:
       - get:
-          url: "/candidates"
+          url: "/health"

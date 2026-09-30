@@ -1,88 +1,31 @@
-# Project 4 – Resume Screener Cost Optimization
+# Cost Optimization – Smart Leave & Absence Management
 
-## 1. Current Architecture
+## Current Configuration
 
-The Resume Screener uses:
+Describe the current AWS configuration here.
 
-- API Gateway
-- Cognito
-- Lambda
-- DynamoDB
-- S3
-- SES
-- CloudWatch
+## Optimization Selected
 
-## 2. Optimization Selected
+Describe the optimization here.
 
-Optimization:
+## Before
 
-## 3. Current Configuration
+Cost:
 
-Service:
+Configuration:
 
-Current configuration:
+## After
 
-Current estimated monthly cost:
+Cost:
 
-## 4. Optimized Configuration
+Configuration:
 
-Service:
+## Result
 
-New configuration:
-
-Expected monthly cost:
-
-## 5. Before vs After
-
-| Metric | Before | After |
-|---|---:|---:|
-| Monthly Cost | | |
-| API Requests | | |
-| Lambda Duration | | |
-| DynamoDB Requests | | |
-| S3 Storage | | |
-
-## 6. Performance Impact
-
-Before optimization:
-
-After optimization:
+Cost difference:
 
 Performance impact:
 
-## 7. Cost Impact
+## Conclusion
 
-Estimated savings:
-
-Percentage improvement:
-
-## 8. Load Test Impact
-
-Before optimization:
-
-RPS:
-
-P50:
-
-P95:
-
-P99:
-
-After optimization:
-
-RPS:
-
-P50:
-
-P95:
-
-P99:
-
-## 9. Risks
-
-Possible risks:
-
-## 10. Conclusion
-
-The optimization will be validated using AWS Cost Explorer,
-CloudWatch metrics, and Artillery load testing.
+Document the result after testing.
