@@ -1,0 +1,13 @@
+config:
+  target: "https://YOUR-API-URL"
+
+  phases:
+    - duration: 60
+      arrivalRate: 1
+      name: "Smoke test"
+
+scenarios:
+  - name: "Learning API test"
+    flow:
+      - get:
+          url: "/health"
