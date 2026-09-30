@@ -1,13 +1,17 @@
 config:
-  target: "https://YOUR-API-URL"
+  target: "https://YOUR-API-GATEWAY-URL"
 
   phases:
     - duration: 60
       arrivalRate: 1
-      name: "Smoke test"
+      name: "Smoke Test"
+
+    - duration: 60
+      arrivalRate: 5
+      name: "Small Load Test"
 
 scenarios:
-  - name: "Learning API test"
+  - name: "Employee Onboarding API"
     flow:
       - get:
-          url: "/health"
+          url: "/YOUR-API-PATH"
