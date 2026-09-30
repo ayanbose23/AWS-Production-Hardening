@@ -1,4 +1,4 @@
-# Project 4 – AI-Powered Resume Screener & Talent Acquisition Pipeline
+# Project 3 – Smart Employee Onboarding & Identity Service
 
 ## 1. Objective
 
@@ -8,16 +8,6 @@ Estimate the monthly AWS cost for:
 - 500 users/day
 - 5,000 users/day
 
-The project provides backend APIs for:
-
-- User authentication
-- Resume upload
-- Candidate management
-- Candidate shortlisting
-- Candidate rejection
-- Interview notifications
-- CSV export
-
 ## 2. AWS Services
 
 - Amazon API Gateway
@@ -25,6 +15,7 @@ The project provides backend APIs for:
 - Amazon Cognito
 - Amazon DynamoDB
 - Amazon S3
+- Amazon SNS
 - Amazon SES
 - Amazon CloudWatch
 
@@ -49,6 +40,7 @@ Initial assumption:
 | Cognito | | | |
 | DynamoDB | | | |
 | S3 | | | |
+| SNS | | | |
 | SES | | | |
 | CloudWatch | | | |
 | **Total** | | | |
@@ -61,21 +53,10 @@ Reason:
 
 ## 6. Actual AWS Cost
 
-AWS Cost Explorer will be used to compare actual AWS usage
-with the projected monthly cost.
+AWS Cost Explorer will be used to compare actual usage and projected cost.
 
-## 7. Cost Optimization
+## 7. Notes
 
-Optimization selected:
-
-Before:
-
-After:
-
-Expected benefit:
-
-## 8. Notes
-
-The final cost depends on actual API requests, Lambda execution
-duration, DynamoDB reads/writes, S3 storage, Cognito usage,
-SES email volume, and CloudWatch logs.
+The final cost will depend on actual API requests, Lambda execution duration,
+DynamoDB reads/writes, S3 storage, authentication activity, email/SNS usage,
+and CloudWatch logs.
